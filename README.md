@@ -1,2 +1,2 @@
-# WikiLoL
- Concept App FullStack using League of Legends API
+# WikiGoldenSun
+ Concept App FullStack using own Golden Sun API
