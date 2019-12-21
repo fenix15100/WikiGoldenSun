@@ -4,9 +4,9 @@ namespace App;
 
 use Illuminate\Database\Eloquent\Model;
 use Illuminate\Database\Eloquent\Relations\HasMany;
+
 class Character extends Model
 {
-
     /**
      * The primary key associated with the table.
      *
@@ -33,7 +33,4 @@ class Character extends Model
     public function getDjinns(){
         return $this->hasMany( 'App\Djinns', 'character_id', 'character_id' );
     }
-
 }
-
-

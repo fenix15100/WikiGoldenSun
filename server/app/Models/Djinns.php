@@ -25,8 +25,8 @@ class Djinns extends Model
     ];
 
     /**
-    * @return \Illuminate\Database\Eloquent\Relations\HasOne
-    */
+     * @return \Illuminate\Database\Eloquent\Relations\HasOne
+     */
     public function getCharacter(){
         return $this->hasOne( 'App\Character', 'character_id', 'character_id' );
     }
